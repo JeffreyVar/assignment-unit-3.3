@@ -81,11 +81,11 @@ console.log(sum);
 console.log('9. Filling boxes with a "while" loop');
 
 let boxes = [];
-let i = 572;
+let i = 6000;
 let leftovers = (i % 7);
 
 while (i > 0) {
-    i = i-7;
+    i = i - 7;
     if (i > 0 ) {
     boxes.push(i);
     }
